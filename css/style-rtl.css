@@ -88,7 +88,15 @@ body {
 }
 
 body p {
-  margin-bott
+  margin-bottom: 0;
+}
+
+a {
+  color: #aa6ecf;
+  text-decoration: none;
+}
+
+a:hover,
 a:focus {
   color: #873cb5;
   text-decoration: none;
@@ -21235,23 +21243,7 @@ body:not(.lg-from-hash)
     border: 7px solid #fff;
   }
   .desktop .thumbnail-small-hover-image:before {
-    content: ""anslate(120%, -60%);
-    transition: .33s all ease;
-    width: 342px;
-    height: 252px;
-    background: #fff;
-    box-shadow: 3px 0px 50px -2px rgba(0, 0, 0, 0.14);
-    opacity: 0;
-    pointer-events: none;
-  }
-  .desktop .thumbnail-small-hover-image img {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    border: 7px solid #fff;
-  }
-  .desktop .thumbnail-small-hover-image:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     z-index: -1000;
@@ -21274,6 +21266,11 @@ body:not(.lg-from-hash)
   }
   .desktop .thumbnail-small:hover .thumbnail-small-hover-image {
     z-index: 12;
+    opacity: 1;
+    transform: translate(100%, -60%);
+  }
+}
+ex: 12;
     opacity: 1;
     transform: translate(100%, -60%);
   }

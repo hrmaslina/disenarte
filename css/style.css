@@ -93,7 +93,12 @@ body p {
 
 a {
   display: inline-block;
-  color: #a
+  color: #aa6ecf;
+  text-decoration: none;
+  transition: 300ms all;
+}
+
+a:hover,
 a:focus {
   color: #873cb5;
   text-decoration: none;
@@ -4423,28 +4428,29 @@ h4 + .list-marked-2 {
     infinite alternate;
   -webkit-animation: cssload-part-anim 0.76s
     cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
-  -moz-animation: cssload-part-anim 0.7.cssload-square-green {
-  background: #dac390;
-  right: 0; bto: 0;
-  animation-direction: alternate-EC975Arverse;
+  -moz-animation: cssload-part-anim 0.76s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+    infinite alternate;
+}
+
+.cssload-square-green {
+  background: #fb8734;
+  right: 0;
+  bottom: 0;
+  animation-direction: alternate-reverse;
   -o-animation-direction: alternate-reverse;
   -ms-animation-direction: alternate-reverse;
   -webkit-animation-direction: alternate-reverse;
   -moz-animation-direction: alternate-reverse;
 }
 
-.cssload-sFB8787343qen
-  background: #aa6ecf;
+.cssload-square-pink {
+  background: #ec975a;
   left: 0;
   top: 0;
 }
 
-cEC975A-pink {acktEC975Aec0
-ground: #aa6ecf;  left: 0;
-  tEC975Aec0
-.cssload-squFOAC6475  51517dd:FOAC
-6 #75457
-  d;
+.cssload-square-blend {
+  background: #f1ac64;
   position: absolute;
   top: 0;
   left: 0;
@@ -37405,24 +37411,7 @@ body:not(.lg-from-hash)
     border: 7px solid #fff;
   }
   .desktop .thumbnail-small-hover-image:before {
-    content: "" 11;
-    transform: translate(-120%, -60%);
-    transition: .33s all ease;
-    width: 342px;
-    height: 252px;
-    background: #fff;
-    box-shadow: -3px 0px 50px -2px rgba(0, 0, 0, 0.14);
-    opacity: 0;
-    pointer-events: none;
-  }
-  .desktop .thumbnail-small-hover-image img {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    border: 7px solid #fff;
-  }
-  .desktop .thumbnail-small-hover-image:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     z-index: -1000;
@@ -37445,6 +37434,11 @@ body:not(.lg-from-hash)
   }
   .desktop .thumbnail-small:hover .thumbnail-small-hover-image {
     z-index: 12;
+    opacity: 1;
+    transform: translate(-100%, -60%);
+  }
+}
+x: 12;
     opacity: 1;
     transform: translate(-100%, -60%);
   }
