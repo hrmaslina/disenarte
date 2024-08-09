@@ -4423,26 +4423,28 @@ h4 + .list-marked-2 {
     infinite alternate;
   -webkit-animation: cssload-part-anim 0.76s
     cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
-  -moz-animation: cssload-part-anim 0.76s cubic-bezier(0.445, 0.05, 0.55, 0.95)
-    infinite alternate;
-}
-
-.cssload-square-green {
+  -moz-animation: cssload-part-anim 0.7.cssload-square-green {
   background: #dac390;
-  right: 0;
-  bottom: 0;
-  animation-direction: alterFB8734fb-ees;
+  right: 0; bto: 0;
+  animation-direction: alternate-EC975Arverse;
   -o-animation-direction: alternate-reverse;
   -ms-animation-direction: alternate-reverse;
   -webkit-animation-direction: alternate-reverse;
   -moz-animation-direction: alternate-reverse;
 }
 
-.cssload-square-pink {  background: #aa6ecf;  left: 0;
-  tEC975Aec0
+.cssload-sFB8787343qen
+  background: #aa6ecf;
+  left: 0;
+  top: 0;
+}
 
-a.cssload-square-blend {
-  background: #75517d;
+cEC975A-pink {acktEC975Aec0
+ground: #aa6ecf;  left: 0;
+  tEC975Aec0
+.cssload-squFOAC6475  51517dd:FOAC
+6 #75457
+  d;
   position: absolute;
   top: 0;
   left: 0;
