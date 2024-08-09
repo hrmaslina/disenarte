@@ -33,119 +33,77 @@
         </div>
       </div>
       <!-- Page Header-->
-      <header class="page-header rd-navbar-default rd-navbar-transparent">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="80px" data-lg-stick-up-offset="46px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
-            <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="./"><img src="images/logo-dark-152x59.png" alt="" width="152" height="59"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <ul class="rd-navbar-nav">
-                    <li class="active"><a href="fitness.html">Fitness</a>
-                    </li>
-                    <li><a href="food.html">Food</a>
-                    </li>
-                    <li><a href="health.html">Health</a>
-                    </li>
-                    <li><a href="love.html">Love</a>
-                    </li>
-                    <li><a href="#">Beauty</a>
-                      <!-- RD Navbar Dropdown-->
-                      <ul class="rd-navbar-dropdown">
-                        <li><a href="beauty.html">Beauty</a>
-                        </li>
-                        <li><a href="beauty-list.html">Beauty List</a>
-                        </li>
-                        <li><a href="single-post.html">Single Post</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Pages</a>
-                      <!-- RD Navbar Megamenu-->
-                      <ul class="rd-navbar-megamenu">
-                        <li>
-                          <p class="rd-megamenu-header">Pages 1</p>
-                          <div class="header-divider"></div>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="shop-list.html">Shop List</a></li>
-                            <li><a href="single-product.html">Single Product</a></li>
-                            <li><a href="cart-page.html">Cart Page</a></li>
-                            <li><a href="competitions.html">Competitions</a></li>
-                            <li><a href="partner-with-us.html">Partner with Us</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <p class="rd-megamenu-header">Pages 2</p>
-                          <div class="header-divider"></div>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="503.html">503</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="site-map.html">Site Map</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="maintenance.html">Maintenance</a></li>
-                            <li><a href="contacts.html">Contacts</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <p class="rd-megamenu-header">Elements</p>
-                          <div class="header-divider"></div>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="typography.html">Typography</a></li>
-                            <li><a href="forms.html">Forms</a></li>
-                            <li><a href="buttons.html">Buttons</a></li>
-                            <li><a href="progress-bars.html">Progress Bars</a></li>
-                            <li><a href="tabs-&amp;-accordions.html">Tabs &amp; Accordions</a></li>
-                            <li><a href="tables.html">Tables</a></li>
-                            <li><a href="grid.html">Grid</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <p class="rd-megamenu-header">Pages 3</p>
-                          <div class="header-divider"></div>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="fitness.html">Fitness</a></li>
-                            <li><a href="food.html">Food</a></li>
-                            <li><a href="health.html">Health</a></li>
-                            <li><a href="love.html">Love</a></li>
-                            <li><a href="beauty.html">Beauty</a></li>
-                            <li><a href="beauty-list.html">Beauty List</a></li>
-                            <li><a href="single-post.html">Single Post</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="rd-navbar-aside-social">
-                  <!--RD Navbar Search-->
-                  <div class="rd-navbar-search"><a class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search" href="#"><span></span></a>
-                    <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
-                      <div class="form-wrap">
-                        <label class="form-label form-label" for="rd-navbar-search-form-input">Search...</label>
-                        <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
-                        <div class="rd-search-results-live" id="rd-search-results-live"></div>
-                      </div>
-                      <button class="rd-search-form-submit fl-budicons-launch-search81"></button>
-                    </form>
-                  </div><a class="basket mdi-cart-outline" href="cart-page.html"><span>2</span></a>
-                </div>
+      <header
+      class="page-header rd-navbar-default rd-navbar-transparent rd-navbar-absolute"
+    >
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav
+          class="rd-navbar"
+          data-layout="rd-navbar-fixed"
+          data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fullwidth"
+          data-md-device-layout="rd-navbar-fixed"
+          data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-static"
+          data-md-stick-up-offset="80px"
+          data-lg-stick-up-offset="46px"
+          data-stick-up="true"
+          data-sm-stick-up="true"
+          data-md-stick-up="true"
+          data-lg-stick-up="true"
+        >
+          <div
+            class="rd-navbar-collapse-toggle"
+            data-rd-navbar-toggle=".rd-navbar-collapse"
+          >
+            <span></span>
+          </div>
+          <div class="rd-navbar-inner">
+            <!-- RD Navbar Panel-->
+            <div class="rd-navbar-panel">
+              <!-- RD Navbar Toggle-->
+              <button
+                class="rd-navbar-toggle"
+                data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+              >
+                <span></span>
+              </button>
+              <!-- RD Navbar Brand-->
+              <div class="rd-navbar-brand">
+                <a class="brand-name" href="./"
+                  ><img
+                    src="images/logo-dark-152x59.png"
+                    alt=""
+                    width="152"
+                    height="59"
+                /></a>
               </div>
             </div>
-          </nav>
-        </div>
-      </header>
+            <div class="rd-navbar-aside-right">
+              <div class="rd-navbar-nav-wrap">
+                <ul class="rd-navbar-nav">
+                  <li><a href="fitness.html">Personalizados</a></li>
+                  <li><a href="food.html">Stickers</a></li>
+                  <li><a href="health.html">Tazas</a></li>
+                  <li><a href="love.html">Termos</a></li>
+                  <li>
+                    <a href="#">Ropa</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="gorras.html">Gorras</a></li>
+                      <li><a href="beauty-list.html">Playeras</a></li>
+                      <li><a href="single-post.html">Hoodies</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="love.html">Bodas</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
       <!-- Breadcrumbs & Page title-->
       <section class="page-title breadcrumbs-fitness">
         <div class="page-title-text">Fitness</div>
